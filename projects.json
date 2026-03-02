@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Chakour Fashion",
+        "tag": "Personnel",
+        "description": "Projet de commerce en ligne pour une marque de mode.",
+        "image": "images/portfolio/1.png",
+        "link": "https://github.com/Chakour123/Chakour_Fashion",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "objective": "Créer une plateforme e-commerce intuitive et élégante pour la promouvoir ma marque Chakour deen.",
+        "features": [
+            "Catalogue de produits",
+            "Différents menus pour les produits",
+            "Formulaire de contact",
+            "Galerie de produits"
+        ],
+        "github": "https://github.com/Chakour123/Chakour_Fashion",
+        "website": "#"
+    },
+    {
+        "id": 2,
+        "title": "Trophées Raanan",
+        "tag": "Entreprise",
+        "description": "Site vitrine pour une cérémonie de remise de trophées.",
+        "image": "images/portfolio/2.png",
+        "link": "https://tropheesraanan.com/",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "objective": "Présenter l'événement des Trophées Raanan et permettre aux utilisateurs de consulter les lauréats.",
+        "features": [
+            "Design responsive et premium",
+            "Galerie de photos dynamique",
+            "Historique des éditions précédentes",
+            "Formulaire de contact intégré"
+        ],
+        "website": "https://tropheesraanan.com/"
+    },
+    {
+        "id": 3,
+        "title": "Projet Personnel",
+        "tag": "Personnel",
+        "description": "Projet de développement d'une plateforme type Leboncoin",
+        "image": "images/portfolio/3.png",
+        "link": "images/portfolio/3.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "Ajax"
+        ],
+        "objective": "Créer une plateforme pour la vente et l'achat des engins avec interaction entre les utilisateurs",
+        "features": [
+            "Crud des annonces",
+            "Gestion des utilisateurs",
+            "Gestion des annonces",
+            "Gestion des catégories",
+            "Système de messagerie",
+            "Système de favoris"
+        ],
+        "github": "https://github.com/Chakour123/Vignerons_Motors",
+        "website": "#"
+    },
+    {
+        "id": 4,
+        "title": "Beaksharp",
+        "tag": "Entreprise",
+        "description": "Plateforme web professionnelle pour achat de domaine.",
+        "image": "images/portfolio/4.png",
+        "link": "https://beaksharp.com/",
+        "technologies": [
+            "Laravel",
+            "Bootstrap",
+            "MySQL",
+            "Ajax",
+            "Tailwind CSS",
+            "Json",
+            "API"
+        ],
+        "objective": "Développer une solution pour l'achat de domaine et l'hébergement web",
+        "features": [
+            "Authentification sécurisée",
+            "Achat de domaine",
+            "Achat d'hébergement web",
+            "Recherche de domaine",
+            "Système de paiement",
+            "Système de notification",
+            "Système de favoris"
+        ],
+        "website": "https://beaksharp.com/"
+    },
+    {
+        "id": 5,
+        "title": "Mewase.bj",
+        "tag": "Entreprise",
+        "description": "Portail institutionnel pour Mewase Bénin.",
+        "image": "images/portfolio/5.png",
+        "link": "https://mewase.bj/",
+        "technologies": [
+            "PHP",
+            "JavaScript",
+            "Tailwind CSS",
+            "Json",
+            "API",
+            "Bootstrap"
+        ],
+        "objective": "Assurer une présence digitale forte pour l'institution Mewase au Bénin.",
+        "features": [
+            "Architecture multi-pages",
+            "Système de blog intégré",
+            "SEO optimisé",
+            "Localisation multilingue",
+            "Présentation de l'entreprise"
+        ],
+        "website": "https://mewase.bj/"
+    },
+    {
+        "id": 6,
+        "title": "Mewase Store",
+        "tag": "Entreprise",
+        "description": "E-boutique spécialisée pour Mewase.",
+        "image": "images/portfolio/6.png",
+        "link": "https://mewase.store/",
+        "technologies": [
+            "wordpress",
+            "PHP",
+            "MySQL",
+            "API",
+            "Tailwind CSS",
+            "Json"
+        ],
+        "objective": "Lancer une boutique en ligne performante pour la vente de produits spécialisés.",
+        "features": [
+            "Gestion du stock en temps réel",
+            "Paiement sécurisé en ligne",
+            "Suivi des colis",
+            "Optimisation mobile"
+        ],
+        "website": "https://mewase.store/"
+    }
+]

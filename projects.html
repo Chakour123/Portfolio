@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/br.png">
+    <title>Chakour_deen</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="hero-canvas"></canvas>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Chakour<span>.dev</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="https://wa.me/22990645794" target="_blank"
+                    class="btn btn-outline-light rounded-pill px-4 btn-contact-nav">Me contacter</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-5 mt-5">
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Mes Réalisations</h2>
+                    <p class="text-muted">Découvrez une sélection de mes travaux en développement et design.</p>
+                </div>
+
+                <div class="d-flex justify-content-center mb-5">
+                    <div class="btn-group glass-card p-1 rounded-pill" role="group">
+                        <button type="button" class="btn btn-sm btn-dark rounded-pill px-4 filter-btn active"
+                            data-filter="all">Tout</button>
+                        <button type="button" class="btn btn-sm btn-dark rounded-pill px-4 filter-btn"
+                            data-filter="Personnel">Personnel</button>
+                        <button type="button" class="btn btn-sm btn-dark rounded-pill px-4 filter-btn"
+                            data-filter="Entreprise">Entreprise</button>
+                    </div>
+                </div>
+
+                <div id="projects-container" class="row g-4">
+                    <!-- Projects loaded via AJAX -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Detail Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card border-0 p-0 overflow-hidden">
+                <div class="modal-header border-0 p-4 pb-0">
+                    <h5 class="modal-title fw-bold fs-3" id="projectModalLabel">Nom du projet</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <img id="modalImage" src="" alt="" class="img-fluid rounded-4 shadow-sm">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <h6 class="text-uppercase small fw-bold text-muted mb-2">Objectif</h6>
+                                <p id="modalObjective" class="small"></p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-uppercase small fw-bold text-muted mb-2">Technologies</h6>
+                                <div id="modalTech" class="d-flex flex-wrap gap-2">
+                                    <!-- Badges load here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-4 border-secondary opacity-25">
+                    <div class="mb-4">
+                        <h6 class="text-uppercase small fw-bold text-muted mb-3">Fonctionnalités développées</h6>
+                        <ul id="modalFeatures" class="small ps-3 mb-0">
+                            <!-- List loads here -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 p-4 pt-0 justify-content-center">
+                    <a id="modalGithub" href="#" target="_blank" class="btn btn-dark-outline rounded-pill px-4 me-2">
+                        <i class="fab fa-github me-2"></i>Voir le code source
+                    </a>
+                    <a id="modalWebsite" href="#" target="_blank" class="btn btn-primary rounded-pill px-4">
+                        <i class="fas fa-external-link-alt me-2"></i>Visiter le site
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 border-top border-secondary">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Copyright © 2026 Chakour Deen | Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
